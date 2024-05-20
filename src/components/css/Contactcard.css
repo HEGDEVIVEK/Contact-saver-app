@@ -100,6 +100,9 @@
 
     .right-content {
         margin-left: 10px; /* Reduce margin for mobile view */
+        flex-grow: 1; /* Allow right-content to grow */
+        overflow: hidden; 
+
     }
 
     .icon-left {
