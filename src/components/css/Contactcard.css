@@ -3,52 +3,44 @@
     align-items: center;
     margin-bottom: 10px;
     justify-content: center;
-  
-    
-    
 }
-.box
-{
+
+.box {
     display: flex;
     align-items: center;
     margin-bottom: 1px;
     justify-content: center;
-   width: 450px;
-   
+    width: 450px;
 }
 
-
 .icon-left {
-
-   background-color: cornflowerblue;
-   border-radius: 100px;
+    background-color: cornflowerblue;
+    border-radius: 100px;
     width: 35px; /* Fixed width for the left icon */
     height: 35px; /* Fixed height for the left icon */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 1px;
-   
 }
 
-.content{
-    
+.content {
     display: flex;
     align-items: center;
     padding: 8px;
     background-color: #fabfbf;
     border-radius: 5px;
     margin-left: 8px;
-    width: 90%; /* Ensure content takes up full width */
+    width: calc(100% - 50px); /* Adjust width to accommodate icon-left and margin */
     justify-content: space-between;
-    
-
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 .right-content {
     margin-left: 30px;
     flex-grow: 1; /* Allow right-content to grow */
-    overflow: hidden; 
+    overflow: hidden;
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 .name,
@@ -56,41 +48,35 @@
     margin-bottom: 5px;
     overflow: hidden; /* Hide overflow text */
     text-overflow: ellipsis; /* Display ellipsis for overflow text */
-    white-space: nowrap; 
-    
+    white-space: nowrap;
 }
 
 .name {
     font-weight: bold;
 }
 
-
-.icon-right
-{
+.icon-right {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(241, 238, 233);
-    width: 20px; /* Fixed width for the left icon */
-    height: 20px; 
+    width: 20px; /* Fixed width for the right icon */
+    height: 20px;
     border-radius: 5px;
     margin-right: 20px;
-    
 }
 
 .icon-right:hover {
     background-color: rgb(12, 1, 1); /* Color when hovered */
-    
 }
 
 .icon-right i {
-    cursor: pointer ; /* Add pointer cursor on hover */
+    cursor: pointer; /* Add pointer cursor on hover */
 }
 
 .icon-right i:hover {
     color: rgb(239, 242, 244); /* Color when hovered */
 }
-
 
 @media only screen and (max-width: 480px) {
     .box {
@@ -101,8 +87,7 @@
     .right-content {
         margin-left: 10px; /* Reduce margin for mobile view */
         flex-grow: 1; /* Allow right-content to grow */
-        overflow: hidden; 
-
+        overflow: hidden;
     }
 
     .icon-left {
@@ -114,10 +99,8 @@
         width: 15px; /* Adjust width for mobile view */
         height: 15px; /* Adjust height for mobile view */
     }
+
+    .content {
+        width: calc(100% - 40px); /* Adjust width for mobile view to accommodate icons */
+    }
 }
-
-
-
-
-
-
