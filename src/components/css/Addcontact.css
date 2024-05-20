@@ -4,24 +4,25 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-top: 100px;
 
 }
 
 .nameheader{
 
-    display: flex; 
+  
     justify-content: center; 
     align-items: center;
     margin-top: 20px;
     margin-bottom: 50px;
     background-color: antiquewhite;
-    width: 200px;
+    width: 131px;
     margin-left: 100px;
     box-shadow: 10px 10px 5px rgba(10, 11, 10, 0.5);
 }
 
 .form {
-    width: 400px; /* Adjust as needed */
+    width: 350px; /* Adjust as needed */
     background-color: lightblue;
     box-shadow: 12px 12px 5px rgba(10, 11, 10, 0.5);
     margin-bottom: 40px;

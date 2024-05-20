@@ -14,17 +14,20 @@
     margin-bottom: 1px;
     justify-content: center;
    width: 400px;
+   
 }
 
 
 .icon-left {
-    background-color: #92c4ec;
-    border-radius: 100px;
-    width: 40px; /* Fixed width for the left icon */
-    height: 40px; /* Fixed height for the left icon */
+
+   background-color: cornflowerblue;
+   border-radius: 100px;
+    width: 35px; /* Fixed width for the left icon */
+    height: 35px; /* Fixed height for the left icon */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 1px;
    
 }
 
@@ -36,7 +39,7 @@
     background-color: #fabfbf;
     border-radius: 5px;
     margin-left: 8px;
-    width: 100%; /* Ensure content takes up full width */
+    width: 80%; /* Ensure content takes up full width */
     justify-content: space-between;
 
 }
@@ -90,7 +93,7 @@
 
 @media only screen and (max-width: 480px) {
     .box {
-        width: 100%; /* Full width for mobile view */
+        width: 80%; /* Full width for mobile view */
         padding: 0 10px; /* Add some padding for better spacing */
     }
 
