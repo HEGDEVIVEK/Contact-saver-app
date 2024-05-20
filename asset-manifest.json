@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Contact-saver-app/static/css/main.650af2ee.css",
+    "main.css": "/Contact-saver-app/static/css/main.2ae3b618.css",
     "main.js": "/Contact-saver-app/static/js/main.4e99bbf9.js",
     "index.html": "/Contact-saver-app/index.html",
-    "main.650af2ee.css.map": "/Contact-saver-app/static/css/main.650af2ee.css.map",
+    "main.2ae3b618.css.map": "/Contact-saver-app/static/css/main.2ae3b618.css.map",
     "main.4e99bbf9.js.map": "/Contact-saver-app/static/js/main.4e99bbf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.650af2ee.css",
+    "static/css/main.2ae3b618.css",
     "static/js/main.4e99bbf9.js"
   ]
 }
