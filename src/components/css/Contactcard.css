@@ -10,7 +10,7 @@
     align-items: center;
     margin-bottom: 1px;
     justify-content: center;
-    width: 450px;
+    width: 350px;
 }
 
 .icon-left {
@@ -31,7 +31,7 @@
     background-color: #fabfbf;
     border-radius: 5px;
     margin-left: 8px;
-    width: calc(100% - 50px); /* Adjust width to accommodate icon-left and margin */
+    flex-basis: calc(100% - 50px); /* Ensure content takes up full width minus icon and margin */
     justify-content: space-between;
     flex-shrink: 0; /* Prevent shrinking */
 }
@@ -78,29 +78,3 @@
     color: rgb(239, 242, 244); /* Color when hovered */
 }
 
-@media only screen and (max-width: 480px) {
-    .box {
-        width: 90%; /* Full width for mobile view */
-        padding: 0 10px; /* Add some padding for better spacing */
-    }
-
-    .right-content {
-        margin-left: 10px; /* Reduce margin for mobile view */
-        flex-grow: 1; /* Allow right-content to grow */
-        overflow: hidden;
-    }
-
-    .icon-left {
-        width: 30px; /* Adjust width for mobile view */
-        height: 30px; /* Adjust height for mobile view */
-    }
-
-    .icon-right {
-        width: 15px; /* Adjust width for mobile view */
-        height: 15px; /* Adjust height for mobile view */
-    }
-
-    .content {
-        width: calc(100% - 40px); /* Adjust width for mobile view to accommodate icons */
-    }
-}
