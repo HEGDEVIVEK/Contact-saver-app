@@ -27,6 +27,7 @@
 .addc
 {
     margin-left: 10px;
+    flex-grow: 1;
 }
  
 
@@ -37,9 +38,10 @@
     justify-content: center;
     width: 40px; /* Fixed width for the left icon */
     height: 40px; 
-    border-radius: 50px; 
-    margin-left: 290px;   
+    border-radius: 50px;  
     background-color: rgb(179, 214, 248);
+    margin-right: 18px;
+    
     
 }
 
@@ -77,5 +79,18 @@
     position: absolute;
     right: 40px; /* Adjust the position of the icon */
     color: #000; /* Icon color */
+}
+
+/* Media Query for Mobile View */
+@media only screen and (max-width: 480px) {
+    .boxc {
+        width: 90%; /* Adjusted width for mobile */
+        max-width: none; /* Remove maximum width for mobile */
+    }
+
+    .buttc {
+        width: 30px; /* Adjusted width for mobile */
+        height: 30px; /* Adjusted height for mobile */
+    }
 }
 

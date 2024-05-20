@@ -67,3 +67,15 @@ input[type="text"] {
 button:hover {
     background-color: #0056b3;
 }
+
+
+@media only screen and (max-width: 480px) {
+    .field {
+        margin: 10px 10px;
+    }
+
+    .button {
+        width: calc(100% - 20px); /* Adjust button width */
+        margin: 0 10px 8px 10px; /* Adjust margins */
+    }
+}

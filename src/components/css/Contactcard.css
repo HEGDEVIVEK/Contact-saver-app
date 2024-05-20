@@ -70,7 +70,7 @@
     width: 20px; /* Fixed width for the left icon */
     height: 20px; 
     border-radius: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
     
 }
 
@@ -86,6 +86,30 @@
 .icon-right i:hover {
     color: rgb(239, 242, 244); /* Color when hovered */
 }
+
+
+@media only screen and (max-width: 480px) {
+    .box {
+        width: 100%; /* Full width for mobile view */
+        padding: 0 10px; /* Add some padding for better spacing */
+    }
+
+    .right-content {
+        margin-left: 10px; /* Reduce margin for mobile view */
+    }
+
+    .icon-left {
+        width: 30px; /* Adjust width for mobile view */
+        height: 30px; /* Adjust height for mobile view */
+    }
+
+    .icon-right {
+        width: 15px; /* Adjust width for mobile view */
+        height: 15px; /* Adjust height for mobile view */
+    }
+}
+
+
 
 
 
