@@ -9,7 +9,7 @@
 
 .boxc{
    
-   width: 400px;
+   width: 450px;
    margin-bottom: 40px;
    margin-top: 20px; 
   
@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     padding: 8px;
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -41,7 +41,7 @@
     height: 40px; 
     border-radius: 50px;  
     background-color: rgb(179, 214, 248);
-    margin-right: 18px;
+    margin-right: 30px;
     
     
 }
