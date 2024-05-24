@@ -1,7 +1,7 @@
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [ https://hegdevivek.github.io/Contact-saver-app/](Email Saver) to view it in your browser.
+Open [ https://hegdevivek.github.io/Contact-saver-app/]to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
